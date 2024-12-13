@@ -1,4 +1,6 @@
-CREATE TABLE Graeme
+CREATE TABLE ${flyway:defaultSchema}.FlywayTestingTable
 (
-    FlywayTest.Graeme int
+    Community int,
+	Teams int,
+	Enterprise STRING
 )

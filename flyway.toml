@@ -25,3 +25,13 @@ displayName = "Test Database"
 schemas = ["FlywayTest"]
 user = ""
 password = ""
+defaultSchema = "FlywayTest"
+
+
+[environments.Prod]
+url = "jdbc:bigquery://https://www.googleapis.com/bigquery/v2:443;ProjectId=flywaybigquery;OAuthType=0;OAuthServiceAcctEmail=huxleyflyway@flywaybigquery.iam.gserviceaccount.com;OAuthPvtKeyPath=C:\\flywaybigquery-d5743e956421.json;"
+displayName = "Test Database"
+schemas = ["FlywayProd"]
+user = ""
+password = ""
+defaultSchema = "FlywayProd"

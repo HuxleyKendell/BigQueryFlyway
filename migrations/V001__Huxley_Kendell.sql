@@ -1,4 +1,6 @@
-CREATE TABLE ChrawkinsStats
+CREATE TABLE ${flyway:defaultSchema}.AddressBook
 (
-    FirstOrder int
+    FirstName STRING,
+	LastName STRING,
+	ID INT
 )
